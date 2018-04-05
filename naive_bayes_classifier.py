@@ -2,7 +2,7 @@ import csv
 import random
 import math
 
-
+# download the dataset from https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv
 def loadCsv(filename):
     lines = csv.reader(open(filename, "r"))
     dataset = list(lines)
